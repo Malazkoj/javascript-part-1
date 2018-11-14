@@ -6,6 +6,9 @@ function add(a, b) {
       Write some code here !!!
 
      */
+    if (isANumber(a) && isANumber(b))
+        return a+b;
+    else
     return null; // This can be deleted as well ;)
 }
 
